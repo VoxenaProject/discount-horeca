@@ -1,11 +1,11 @@
-# HF CONCEPT — accueil et catalogue V4
+# HF CONCEPT — accueil et catalogue V5
 
-Prototype statique premium/discount pour les professionnels de l'horeca. Direction artistique blanc, graphite et bleu ; hero épuré, parcours par métier, équipement ou marque.
+Prototype statique premium/discount pour les professionnels de l'horeca. Direction artistique crème, charbon et tons naturels ; hero éditorial, grands visuels et parcours par métier, équipement ou marque.
 
 ## Fonctionnalités
 - Navigation responsive, recherche par nom et référence avec suggestions.
 - Catalogue complet : familles, sous-catégories, marques, promotions, budget, tri et chargement progressif.
-- Fiches produit avec galerie, description, caractéristiques, documents et lien source.
+- Pages produit dédiées via #produit/ID/nom : galerie agrandissable, quantité, prix HT/TTC, description, caractéristiques, documents, livraison et produits similaires. Liens directs et rechargement pris en charge.
 - Comparaison jusqu'à trois équipements.
 - Mon projet : sélection persistante sur cet appareil, quantités, totaux HT/TTC et export texte.
 - Navigation du catalogue conservée dans le fragment URL.
@@ -33,6 +33,6 @@ python3 scripts/split_catalog.py
 Relire le rapport d'import et vérifier les données avant publication. Les scripts utilisent dist/ si ce dossier existe, sinon la racine du dépôt.
 
 ## Validation
-Syntaxe JavaScript vérifiée ; recherche, filtres, fiches, quantités et totaux testés ; présentation vérifiée sur ordinateur et mobile.
+V5 : lien direct produit et rechargement, ajout de quantité, affichage à 390 pixels et rendu ordinateur vérifiés. Syntaxe JavaScript vérifiée ; recherche, filtres, fiches, quantités et totaux testés ; présentation vérifiée sur ordinateur et mobile.
 
 Ce prototype ne passe aucune commande et n'envoie aucun devis. La sélection reste locale au navigateur ; l'export texte permet de préparer une demande.
