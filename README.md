@@ -1,17 +1,38 @@
-# HF CONCEPT — Maquette V3
+# HF CONCEPT — accueil et catalogue V4
 
-Homepage premium et commerciale : typographie agrandie, photographie de cuisine professionnelle, trois entrées principales (établissement, équipement, offres) et offre chiffrée dans le premier écran.
+Prototype statique premium/discount pour les professionnels de l'horeca. Direction artistique blanc, graphite et bleu ; hero épuré, parcours par métier, équipement ou marque.
 
-## Parcours
-Choix de l’activité : restaurant/brasserie, gastronomie, boulangerie/pâtisserie, cantine/collectivité, pizzeria, snack/friterie. Chaque choix révèle un panneau contextualisé pour préciser son besoin. Puis accès à la sélection disponible ou à une prise de contact.
+## Fonctionnalités
+- Navigation responsive, recherche par nom et référence avec suggestions.
+- Catalogue complet : familles, sous-catégories, marques, promotions, budget, tri et chargement progressif.
+- Fiches produit avec galerie, description, caractéristiques, documents et lien source.
+- Comparaison jusqu'à trois équipements.
+- Mon projet : sélection persistante sur cet appareil, quantités, totaux HT/TTC et export texte.
+- Navigation du catalogue conservée dans le fragment URL.
 
-Marques regroupées : Maxima, Diamond, Diversion, AFI, Combisteel, d’après les indications du client. Aucune exclusivité revendiquée. Les noms sont présentés typographiquement ; ce ne sont pas des logos officiels fournis par les marques.
+## Données
+Import du site source Discount Horeca le 26 octobre 2026 : 1 364 fiches accessibles, sur 1 438 références découvertes via 282 pages de catégories. 61 anciennes URLs produit renvoient une erreur 404 et 13 ne conduisent plus à une fiche produit ; elles sont exclues. Rapport : data/import-report.json.
 
-## Fonctionnement
-Ouvrir index.html : aucun build requis, images intégrées. Recherche, filtres, comparateur commercial (2 à 3 références), aperçu, sélection pour devis enregistrée dans localStorage et export texte. Une unité par référence. Aucun achat ni message transmis automatiquement.
+Les prix, remises, descriptions, références et caractéristiques proviennent des fiches source. Les images produit restent hébergées sur le site source. Les prix et indications de disponibilité sont un instantané, sans synchronisation temps réel. Les affectations aux métiers servent à guider la navigation et ne remplacent pas la vérification des spécifications.
 
-## Données et limites
-Quatre produits de démonstration, visuels, prix et coordonnées repris de https://www.discounthoreca.be/fr/ le 26 octobre 2026. TTC calculés à 21 %. Visuel de cuisine et photo réelle du showroom issus du site existant. Les références complètes, gammes par marque, caractéristiques techniques, stocks, paiement et back-office restent à intégrer. Les parcours par métier orientent le besoin ; ils ne constituent pas une validation technique de compatibilité.
+14 marques disposent de fiches identifiées dans l'import. Maxima et Diversion restent présentées sur demande de conseil ; aucun produit ni exclusivité n'a été inventé.
 
-## Vérifications
-Syntaxe JavaScript et ancres internes. Rendu desktop et mobile 390 px ; parcours Boulangerie et Cantine, sélection Froid et demande de conseil contextualisée Diamond. Comparateur et sélection persistante vérifiés en V2.
+## Exécution locale
+Depuis la racine du dépôt :
+```sh
+python3 -m http.server 4173
+```
+Ouvrir http://localhost:4173. Un serveur HTTP est nécessaire pour charger les fichiers JSON.
+
+## Actualiser le catalogue
+Dépendance Python : lxml.
+```sh
+python3 scripts/import_catalog.py
+python3 scripts/split_catalog.py
+```
+Relire le rapport d'import et vérifier les données avant publication. Les scripts utilisent dist/ si ce dossier existe, sinon la racine du dépôt.
+
+## Validation
+Syntaxe JavaScript vérifiée ; recherche, filtres, fiches, quantités et totaux testés ; présentation vérifiée sur ordinateur et mobile.
+
+Ce prototype ne passe aucune commande et n'envoie aucun devis. La sélection reste locale au navigateur ; l'export texte permet de préparer une demande.
