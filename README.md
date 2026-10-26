@@ -1,17 +1,17 @@
-# HF CONCEPT — Maquette complète de l’accueil
+# HF CONCEPT — Maquette V3
 
-Nouvelle identité proposée : monogramme HF vectoriel, ivoire, vert anthracite et cuivre. Une présentation premium avec prix et économies visibles.
+Homepage premium et commerciale : typographie agrandie, photographie de cuisine professionnelle, trois entrées principales (établissement, équipement, offres) et offre chiffrée dans le premier écran.
 
-Ouvrir `index.html` dans un navigateur. Aucun build requis ; images intégrées.
+## Parcours
+Choix de l’activité : restaurant/brasserie, gastronomie, boulangerie/pâtisserie, cantine/collectivité, pizzeria, snack/friterie. Chaque choix révèle un panneau contextualisé pour préciser son besoin. Puis accès à la sélection disponible ou à une prise de contact.
 
-## Sections
-En-tête et navigation, offre à la une, garanties de parcours, univers produits, offres, Maxima, entrées par métier, guide de choix, services, showroom réel, FAQ et contact.
+Marques regroupées : Maxima, Diamond, Diversion, AFI, Combisteel, d’après les indications du client. Aucune exclusivité revendiquée. Les noms sont présentés typographiquement ; ce ne sont pas des logos officiels fournis par les marques.
 
-## Interactions
-Recherche, filtres, guide par besoin et budget, comparaison de 2 à 3 équipements sur les données commerciales disponibles, aperçu produit, sélection pour devis conservée dans localStorage, retrait et export texte. Une unité par référence. Aucun achat, paiement ou devis transmis.
+## Fonctionnement
+Ouvrir index.html : aucun build requis, images intégrées. Recherche, filtres, comparateur commercial (2 à 3 références), aperçu, sélection pour devis enregistrée dans localStorage et export texte. Une unité par référence. Aucun achat ni message transmis automatiquement.
 
-## Sources et limites
-Produits, visuels, prix, promotions et coordonnées issus de https://www.discounthoreca.be/fr/ le 26 octobre 2026. Prix TTC calculés à 21 %. Nouveau logo HF CONCEPT créé pour cette proposition. Maxima est présenté comme une marque proposée, sans revendication de distribution exclusive. Les quatre produits de démonstration ne sont pas attribués à Maxima. Références Maxima, catalogue complet, stocks, caractéristiques techniques, paiement et back-office restent à intégrer.
+## Données et limites
+Quatre produits de démonstration, visuels, prix et coordonnées repris de https://www.discounthoreca.be/fr/ le 26 octobre 2026. TTC calculés à 21 %. Visuel de cuisine et photo réelle du showroom issus du site existant. Les références complètes, gammes par marque, caractéristiques techniques, stocks, paiement et back-office restent à intégrer. Les parcours par métier orientent le besoin ; ils ne constituent pas une validation technique de compatibilité.
 
-## Vérification
-Syntaxe JavaScript, rendu desktop et largeur mobile de 390 px, chargement des images, comparateur, sélection persistante après rechargement, suppression, guide et état sans résultat. Les catégories non renseignées indiquent les limites de la maquette.
+## Vérifications
+Syntaxe JavaScript et ancres internes. Rendu desktop et mobile 390 px ; parcours Boulangerie et Cantine, sélection Froid et demande de conseil contextualisée Diamond. Comparateur et sélection persistante vérifiés en V2.
