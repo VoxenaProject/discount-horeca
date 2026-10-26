@@ -1,0 +1,474 @@
+{
+  "source": "https://www.discounthoreca.be/fr/",
+  "importedAt": "2026-10-26T22:00:30Z",
+  "coverage": {
+    "discovered": 1438,
+    "imported": 1364,
+    "notFound": 61,
+    "redirectedWithoutProduct": 13,
+    "listingUrlsNotFound": 6
+  },
+  "errors": [
+    {
+      "stage": "listing",
+      "url": "https://www.discounthoreca.be/fr/200-cafeteria-",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "stage": "listing",
+      "url": "https://www.discounthoreca.be/fr/201-kit-pack-complet-",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "stage": "listing",
+      "url": "https://www.discounthoreca.be/fr/245-billot-a-viande",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "stage": "listing",
+      "url": "https://www.discounthoreca.be/fr/194-bonnes-affaires",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "stage": "listing",
+      "url": "https://www.discounthoreca.be/fr/244-pack-pizzeria-complet-",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "stage": "listing",
+      "url": "https://www.discounthoreca.be/fr/203-option-",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "138",
+      "url": "https://www.discounthoreca.be/fr/congelateur-bahut/138-congelateur-bahut-300-litres.html",
+      "error": "No product data (removed or redirected)"
+    },
+    {
+      "id": "26",
+      "url": "https://www.discounthoreca.be/fr/frigo-comptoir-ventile/26-62-frigo-comptoir-cve-9-rc-tf-vitre-droite.html",
+      "error": "No product data (removed or redirected)"
+    },
+    {
+      "id": "25",
+      "url": "https://www.discounthoreca.be/fr/frigo-comptoir-statique/25-1822-frigo-comptoir-cve-9-rc-vitre-droite.html",
+      "error": "No product data (removed or redirected)"
+    },
+    {
+      "id": "1459",
+      "url": "https://www.discounthoreca.be/fr/vitrine-panoramique-positive/1459-vitrine-4-faces-vitrees-triple-vitrage-250-litres.html",
+      "error": "No product data (removed or redirected)"
+    },
+    {
+      "id": "139",
+      "url": "https://www.discounthoreca.be/fr/congelateur-bahut/139-congelateur-bahut-500-litres.html",
+      "error": "No product data (removed or redirected)"
+    },
+    {
+      "id": "140",
+      "url": "https://www.discounthoreca.be/fr/congelateur-bahut/140-conservateur-bahut-300-litres-couvercle-coulissants.html",
+      "error": "No product data (removed or redirected)"
+    },
+    {
+      "id": "141",
+      "url": "https://www.discounthoreca.be/fr/congelateur-bahut/141-conservateur-bahut-400-litres-couvercle-coulissants.html",
+      "error": "No product data (removed or redirected)"
+    },
+    {
+      "id": "669",
+      "url": "https://www.discounthoreca.be/fr/maintenir-chaud/669-pont-chauffant-lampes-infrarouges-2x-250-w.html",
+      "error": "No product data (removed or redirected)"
+    },
+    {
+      "id": "655",
+      "url": "https://www.discounthoreca.be/fr/petit-materiel-de-cuisson/655-toaster-grille-pain-electrique-4-tranches-acier-inox.html",
+      "error": "No product data (removed or redirected)"
+    },
+    {
+      "id": "153",
+      "url": "https://www.discounthoreca.be/fr/serie-60/153-plaque-de-cuisson-lisse-double-hf-concept.html",
+      "error": "No product data (removed or redirected)"
+    },
+    {
+      "id": "150",
+      "url": "https://www.discounthoreca.be/fr/serie-60/150-plaque-de-cuisson-lisse-hf-concept.html",
+      "error": "No product data (removed or redirected)"
+    },
+    {
+      "id": "151",
+      "url": "https://www.discounthoreca.be/fr/serie-60/151-plaque-de-cuisson-lisse-chrome-hf-concept.html",
+      "error": "No product data (removed or redirected)"
+    },
+    {
+      "id": "152",
+      "url": "https://www.discounthoreca.be/fr/serie-60/152-support-en-inox-400x600-hf-concept.html",
+      "error": "No product data (removed or redirected)"
+    },
+    {
+      "id": 33,
+      "url": "https://www.discounthoreca.be/fr/accueil/33-top-900-775-litres.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 199,
+      "url": "https://www.discounthoreca.be/fr/accueil/199-cutter-8-litres-cuve-en-inox-.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1341,
+      "url": "https://www.discounthoreca.be/fr/op-cve-8/1341-1436-coreco-kit-plexiglass-coulissants.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1278,
+      "url": "https://www.discounthoreca.be/fr/iso-80-negatif/1278--service-installation-chambre-froide.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1122,
+      "url": "https://www.discounthoreca.be/fr/machines-a-glacons-pleins-sprayers-system/1122-24kg24h-machine-a-glacons-pleins-14-gr-avec-reserve-6-kg.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 539,
+      "url": "https://www.discounthoreca.be/fr/serie-4060/539-coreco-table-congelation-patisserie.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1344,
+      "url": "https://www.discounthoreca.be/fr/op-cve-9/1344-1453-kit-union-2-vitrinas-ventiladas.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1342,
+      "url": "https://www.discounthoreca.be/fr/op-cve-8/1342-1447-coreco-decoration.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 28,
+      "url": "https://www.discounthoreca.be/fr/frigo-comptoir-ventile/28-73-comptoir-frigo-boucherie-vitre-bombee.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1573,
+      "url": "https://www.discounthoreca.be/fr/op-cve-8/1573-service-montage-et-installation-.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1557,
+      "url": "https://www.discounthoreca.be/fr/op-cveg-r/1557-angle-neutre-pour-cver-.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1572,
+      "url": "https://www.discounthoreca.be/fr/op-cve-9/1572-1662--cve-9-angle-refrigeree.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1558,
+      "url": "https://www.discounthoreca.be/fr/op-cveg-r/1558-comptoir-caisse-pour-cver-10.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1385,
+      "url": "https://www.discounthoreca.be/fr/op-cve-12/1385-1528-cve-12-ap90-angle-refrigeree.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1652,
+      "url": "https://www.discounthoreca.be/fr/frigo-comptoir-/1652-1849-vitrine-refrigere-patisserie-noir-ou-blanche-eclairage-led.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 34,
+      "url": "https://www.discounthoreca.be/fr/vitrine-de-table-/34-vitrine-refrigeree-positive-noire-68l.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 32,
+      "url": "https://www.discounthoreca.be/fr/frigo-boisson-/32-promotion-vitrine-topcold-375-litres.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 42,
+      "url": "https://www.discounthoreca.be/fr/armoire-d-exposition-negative-/42-vitrine-de-congelation-2-portes-vitre.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1657,
+      "url": "https://www.discounthoreca.be/fr/accueil/1657-vitrine-panoramique-5-grilles-360-lt-noire.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1461,
+      "url": "https://www.discounthoreca.be/fr/vitrine-panoramique-negative/1461-vitrine-boulangerie-patisserie-negative-4-faces-vitrees-350-litres.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 49,
+      "url": "https://www.discounthoreca.be/fr/colonne-frigorifique-positif-/49-armoire-frigorifique-ventilee-400-lit-en-blanc.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 58,
+      "url": "https://www.discounthoreca.be/fr/colonne-frigorifique-negative-/58-armoire-congelateur-gn-21-statique-600-lit-blanc.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 50,
+      "url": "https://www.discounthoreca.be/fr/colonne-frigorifique-positif-/50-armoire-frigorifique-gn-21-ventilee-600-lit-blanc.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1467,
+      "url": "https://www.discounthoreca.be/fr/armoires-conservation-creme-glacee-chocolat/1467-armoire-refrigeree-pour-chocolat-700-lit.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1158,
+      "url": "https://www.discounthoreca.be/fr/froid-/1158-225c-750x815x2100-armoire-refrigeree-inox.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 51,
+      "url": "https://www.discounthoreca.be/fr/colonne-frigorifique-positif-/51-armoire-frigorifique-ventilee-400-litres-acier-inox.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1159,
+      "url": "https://www.discounthoreca.be/fr/froid-/1159-1500-lit-armoire-refrigeree-inox.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 52,
+      "url": "https://www.discounthoreca.be/fr/colonne-frigorifique-positif-/52-armoire-frigorifique-porte-vitree-ventilee-400-lit-acier-inox.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1160,
+      "url": "https://www.discounthoreca.be/fr/froid-/1160-225c-750x815x2100-armoire-refrigeree-vitree.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 53,
+      "url": "https://www.discounthoreca.be/fr/colonne-frigorifique-positif-/53-armoire-frigorifique-gn-21-ventilee-600-litres-acier-inox.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1135,
+      "url": "https://www.discounthoreca.be/fr/machines-a-glacons-granulee-ice-flakes/1135-113kg-avec-reserve-air-machine-a-glace-granulee.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1120,
+      "url": "https://www.discounthoreca.be/fr/machines-a-glacons-creux-palette-system/1120-machine-a-glacons-creux-75-kg-avec-reserve-37-kg-bistro-line.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1121,
+      "url": "https://www.discounthoreca.be/fr/machines-a-glacons-creux-palette-system/1121-machine-a-glacons-creux-122-kg-avec-reserve-50-kg-bistro-line.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 71,
+      "url": "https://www.discounthoreca.be/fr/table-de-preparation-et-table-chef-/71-table-de-preparation-avec-5-x-gn-16.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 75,
+      "url": "https://www.discounthoreca.be/fr/table-de-preparation-et-table-chef-/75-table-fastfood-2-portes-bac-gn14-avec-saladette-incorporee.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 76,
+      "url": "https://www.discounthoreca.be/fr/table-de-preparation-et-table-chef-/76-table-fastfood-3-portes-bac-gn14-avec-saladette-incorporee.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 83,
+      "url": "https://www.discounthoreca.be/fr/table-compacte-/83-table-frigo-compacte-3-portes.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 540,
+      "url": "https://www.discounthoreca.be/fr/serie-4060/540-coreco-table-congelation-patisserie.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 538,
+      "url": "https://www.discounthoreca.be/fr/serie-snack/538--coreco-table-congelation-3-portes-380-lit.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 520,
+      "url": "https://www.discounthoreca.be/fr/serie-snack-/520-table-refrigeree-positive-sans-dosseret-3-portes.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 521,
+      "url": "https://www.discounthoreca.be/fr/serie-snack-/521-table-refrigeree-positive-sans-dosseret-4-portes.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1279,
+      "url": "https://www.discounthoreca.be/fr/iso-80-negatif/1279-1257-1360x1360x2200-chambre-iso-80-avec-groupe.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1254,
+      "url": "https://www.discounthoreca.be/fr/iso-80-positif/1254-1185-1360x1360-x2200-chambre-iso-80-avec-groupe.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1280,
+      "url": "https://www.discounthoreca.be/fr/iso-80-negatif/1280-1260-1360x1660x2200-chambre-iso-80-avec-groupe.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1281,
+      "url": "https://www.discounthoreca.be/fr/iso-80-negatif/1281-1263-1360x1960x2200-chambre-iso-80-avec-groupe.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1256,
+      "url": "https://www.discounthoreca.be/fr/iso-80-positif/1256-1191-1360x1660x2200-chambre-iso-80-avec-groupe.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1282,
+      "url": "https://www.discounthoreca.be/fr/iso-80-negatif/1282-1266-1660x1660x2200-chambre-iso-80-avec-groupe.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1257,
+      "url": "https://www.discounthoreca.be/fr/iso-80-positif/1257-1194-1660x1660x2200-chambre-iso-80-avec-groupe.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1283,
+      "url": "https://www.discounthoreca.be/fr/iso-80-negatif/1283-1269-1660x1960x2200-chambre-iso-80-avec-groupe.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1258,
+      "url": "https://www.discounthoreca.be/fr/iso-80-positif/1258-1197-1360x1960x2200-chambre-iso-80-avec-groupe.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1285,
+      "url": "https://www.discounthoreca.be/fr/iso-80-negatif/1285-1275-1960x1960x2200-chambre-iso-80-avec-groupe.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1089,
+      "url": "https://www.discounthoreca.be/fr/congelateur-bahut/1089-200-l-congelateur-avec-couvercle-plain-coulissant.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1090,
+      "url": "https://www.discounthoreca.be/fr/congelateur-bahut/1090-300-l-congelateur-avec-couvercle-plein-coulissant.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1091,
+      "url": "https://www.discounthoreca.be/fr/congelateur-bahut/1091-400-l-congelateur-avec-couvercle-plein-coulissant.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1093,
+      "url": "https://www.discounthoreca.be/fr/congelateur-bahut/1093-1500-mm-congelateur-coffre-avec-couvercles-coulissants-vitres-bombes.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1094,
+      "url": "https://www.discounthoreca.be/fr/congelateur-bahut/1094-1879mm-congelateur-coffre-avec-couvercles-coulissants-vitres-bombes.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1095,
+      "url": "https://www.discounthoreca.be/fr/congelateur-bahut/1095-2508mm-congelateur-coffre-avec-couvercles-coulissants-vitres-bombes.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 1096,
+      "url": "https://www.discounthoreca.be/fr/congelateur-bahut/1096-2008mm-coffre-nefatif-a-couvercles-coulissants-vitres-bombes-et-vitre-frontal.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 156,
+      "url": "https://www.discounthoreca.be/fr/serie-70/156-plaque-de-cuisson-lisse-premium-hf-concept.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 157,
+      "url": "https://www.discounthoreca.be/fr/serie-70/157-plaque-de-cuisson-chrome-hf-concept.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": 169,
+      "url": "https://www.discounthoreca.be/fr/serie-70/169-grillade-pierre-de-lave-400x650-hf-concept.html",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}
