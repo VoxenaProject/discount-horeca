@@ -1,6 +1,6 @@
-# HF CONCEPT — accueil et catalogue V5
+# HF CONCEPT — accueil et catalogue V6
 
-Prototype statique premium/discount pour les professionnels de l'horeca. Direction artistique crème, charbon et tons naturels ; hero éditorial, grands visuels et parcours par métier, équipement ou marque.
+Prototype statique premium/discount pour les professionnels de l'horeca. Identité « grand magasin pro » : bleu franc, accents prix jaunes, logo HF, catégories visuelles, offres et accompagnement métier.
 
 ## Fonctionnalités
 - Navigation responsive, recherche par nom et référence avec suggestions.
@@ -36,3 +36,15 @@ Relire le rapport d'import et vérifier les données avant publication. Les scri
 V5 : lien direct produit et rechargement, ajout de quantité, affichage à 390 pixels et rendu ordinateur vérifiés. Syntaxe JavaScript vérifiée ; recherche, filtres, fiches, quantités et totaux testés ; présentation vérifiée sur ordinateur et mobile.
 
 Ce prototype ne passe aucune commande et n'envoie aucun devis. La sélection reste locale au navigateur ; l'export texte permet de préparer une demande.
+
+## Refonte V6
+- Accueil reconstruit avec accès direct aux huit familles et offres réelles.
+- Six pages métier dédiées via #metier/Nom : postes à équiper, repères et premières sélections.
+- Pages catégories avec sous-catégories et filtres alimentation/largeur lorsqu’une donnée est renseignée.
+- Page #projet dédiée : quantités, suppression, totaux indicatifs HT/TTC, export texte.
+- Titres produits harmonisés à l’affichage ; 92 fiches enrichies avec 1 194 paires explicites extraites du HTML source. Les autres fiches conservent les informations textuelles disponibles. Aucune valeur technique n’est estimée.
+- Les indications d’alimentation proviennent des mentions présentes dans les fiches ; elles doivent être confirmées pour une installation. Les sélections métier sont des portes d’entrée, pas une validation de compatibilité.
+
+Après l’import et le découpage, lancer `python3 scripts/enrich_specs.py` pour reconstruire data/specifications.json depuis le cache HTML de l’import. Les dimensions restent celles du fournisseur et peuvent contenir des erreurs : la fiche invite à les faire confirmer.
+
+Validation V6 : syntaxe JS, IDs HTML uniques, parcours Pizzeria → catalogue → filtre 230 V (16 résultats au moment du test) → fiche → quantité → projet ; affichage mobile à 390 px sans débordement horizontal observé sur la fiche testée. Paiement, envoi automatique de devis et synchronisation de stock non activés.
