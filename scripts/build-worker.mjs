@@ -1,0 +1,4 @@
+import fs from 'node:fs';
+import path from 'node:path';
+const assets={};function walk(dir){for(const f of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,f.name);if(f.isDirectory())walk(p);else if(!f.name.startsWith('.'))assets['/'+path.relative('public',p)]=fs.readFileSync(p,'utf8')}}walk('public');
+const worker='// Generated from public/ and worker/handler.js. Run npm run build.\nconst ASSETS='+JSON.stringify(assets)+';\n'+fs.readFileSync('worker/handler.js','utf8');fs.writeFileSync('worker/index.js',worker);fs.rmSync('dist',{recursive:true,force:true});fs.mkdirSync('dist/server',{recursive:true});fs.mkdirSync('dist/.openai',{recursive:true});fs.writeFileSync('dist/server/index.js',worker);fs.copyFileSync('.openai/hosting.json','dist/.openai/hosting.json');console.log('Embedded assets: '+Object.keys(assets).length+'; worker bytes: '+Buffer.byteLength(worker));
